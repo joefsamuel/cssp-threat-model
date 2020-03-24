@@ -4,7 +4,11 @@
     "owner": "Joe Samuel"
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "Alvi Jawad"
+      }
+    ],
     "diagrams": [
       {
         "title": "dfd-cheo-patient-room",
