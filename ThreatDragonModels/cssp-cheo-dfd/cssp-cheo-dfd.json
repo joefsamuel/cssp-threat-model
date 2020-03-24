@@ -2173,7 +2173,7 @@
               },
               "position": {
                 "x": 616,
-                "y": 307
+                "y": 308
               },
               "angle": 0,
               "id": "bc25558b-8a2d-46fb-bc33-9ad96ea38d28",
@@ -2986,12 +2986,14 @@
               ],
               "z": 26,
               "hasOpenThreats": false,
+              "outOfScope": true,
+              "reasonOutOfScope": "This data flow represents a read from the file system",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasNoOpenThreats isOutOfScope"
                 }
               }
             },
@@ -3356,7 +3358,7 @@
               },
               "position": {
                 "x": 646,
-                "y": 123
+                "y": 120
               },
               "angle": 0,
               "id": "2a2ca587-d4eb-4f1c-b279-8e458279e0eb",
