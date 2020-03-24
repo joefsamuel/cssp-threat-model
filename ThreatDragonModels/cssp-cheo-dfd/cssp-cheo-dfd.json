@@ -2120,7 +2120,7 @@
                   "type": "Spoofing",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic spoofing threat"
+                  "description": "Falsification of origin."
                 },
                 {
                   "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
@@ -2128,7 +2128,7 @@
                   "type": "Repudiation",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic repudiation threat"
+                  "description": "An attacker might make changes to data that are not traceable."
                 }
               ],
               "attrs": {
@@ -2190,7 +2190,7 @@
                   "type": "Spoofing",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic spoofing threat"
+                  "description": "Falsification of origin."
                 },
                 {
                   "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
@@ -2198,7 +2198,7 @@
                   "type": "Repudiation",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic repudiation threat"
+                  "description": "An attacker might make changes to data that are not traceable."
                 }
               ],
               "attrs": {
@@ -2312,7 +2312,7 @@
                   "type": "Tampering",
                   "status": "Open",
                   "severity": "High",
-                  "description": "A generic tampering threat"
+                  "description": "An attacker can modify or corrupt the database files."
                 },
                 {
                   "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
@@ -2320,7 +2320,7 @@
                   "type": "Repudiation",
                   "status": "Open",
                   "severity": "High",
-                  "description": "A generic repudiation threat"
+                  "description": "Changes made to the database may not be traceable back to the attacker."
                 },
                 {
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
@@ -2328,7 +2328,7 @@
                   "type": "Information disclosure",
                   "status": "Open",
                   "severity": "High",
-                  "description": "A generic information disclosure threat"
+                  "description": "An attacker could make a query call on the database using code injection. An attacker could obtain the database credentials and use them to make unauthorized queries."
                 },
                 {
                   "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
@@ -2336,7 +2336,7 @@
                   "type": "Denial of service",
                   "status": "Open",
                   "severity": "High",
-                  "description": "A generic DoS threat"
+                  "description": "An attacker could flood the database with redundant queries and prevent legitimate queries to the database."
                 }
               ],
               "attrs": {
@@ -2462,8 +2462,8 @@
                 "height": 100
               },
               "position": {
-                "x": 416,
-                "y": 432
+                "x": 423,
+                "y": 434
               },
               "angle": 0,
               "id": "84b7b287-bb29-49ee-bf1a-eacac38e1e47",
@@ -2487,14 +2487,6 @@
                   "description": "A generic tampering threat"
                 },
                 {
-                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
-                  "title": "Repudiation threat",
-                  "type": "Repudiation",
-                  "status": "Open",
-                  "severity": "High",
-                  "description": "A generic repudiation threat"
-                },
-                {
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
                   "title": "Information disclosure threat",
                   "type": "Information disclosure",
@@ -2516,7 +2508,7 @@
                   "type": "Elevation of privilege",
                   "status": "Open",
                   "severity": "High",
-                  "description": "A generic elevation threat"
+                  "description": "The process might gain a higher privilege than authorized."
                 }
               ],
               "attrs": {
@@ -2538,8 +2530,8 @@
                 "height": 100
               },
               "position": {
-                "x": 376,
-                "y": 223
+                "x": 355,
+                "y": 198
               },
               "angle": 0,
               "id": "46acbf30-9323-4665-878e-00b2732f8fb8",
@@ -2552,7 +2544,7 @@
                   "type": "Spoofing",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic spoofing threat"
+                  "description": "An unauthorized process can act as a legitimate process."
                 },
                 {
                   "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
@@ -2560,15 +2552,7 @@
                   "type": "Tampering",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic tampering threat"
-                },
-                {
-                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
-                  "title": "Repudiation threat",
-                  "type": "Repudiation",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic repudiation threat"
+                  "description": "The output of the process may be modified or corrupted."
                 },
                 {
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
@@ -2576,7 +2560,7 @@
                   "type": "Information disclosure",
                   "status": "Open",
                   "severity": "High",
-                  "description": "A generic information disclosure threat"
+                  "description": "A compromised process could lead to potential data leaks."
                 },
                 {
                   "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
@@ -2584,7 +2568,14 @@
                   "type": "Denial of service",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic DoS threat"
+                  "description": "The process may be unavailable to authorized requests."
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Elevation Threat",
+                  "type": "Elevation of privilege",
+                  "description": "The process might gain a higher privilege than authorized."
                 }
               ],
               "attrs": {
@@ -2937,7 +2928,7 @@
                   "type": "Tampering",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic tampering threat"
+                  "description": "Data in transit can be modified by an attacker."
                 },
                 {
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
@@ -2945,7 +2936,7 @@
                   "type": "Information disclosure",
                   "status": "Open",
                   "severity": "High",
-                  "description": "A generic information disclosure threat"
+                  "description": "An attacker can use eavesdropping, side-channel attacks, data leaks, or packet sniffing to spy on data in transit."
                 },
                 {
                   "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
@@ -2953,7 +2944,7 @@
                   "type": "Denial of service",
                   "status": "Open",
                   "severity": "High",
-                  "description": "A generic DoS threat"
+                  "description": "An attacker can overwhelm the communication channel or data flow with redundant data."
                 }
               ],
               "attrs": {
@@ -3033,7 +3024,7 @@
                   "type": "Tampering",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic tampering threat"
+                  "description": "Data in transit can be modified by an attacker."
                 },
                 {
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
@@ -3041,7 +3032,7 @@
                   "type": "Information disclosure",
                   "status": "Open",
                   "severity": "High",
-                  "description": "A generic information disclosure threat"
+                  "description": "An attacker can use eavesdropping, side-channel attacks, data leaks, or packet sniffing to spy on data in transit."
                 },
                 {
                   "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
@@ -3049,7 +3040,7 @@
                   "type": "Denial of service",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic DoS threat"
+                  "description": "An attacker can overwhelm the communication channel or data flow with redundant data."
                 }
               ],
               "attrs": {
@@ -3093,7 +3084,7 @@
                   "type": "Tampering",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic tampering threat"
+                  "description": "Data in transit can be modified by an attacker."
                 },
                 {
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
@@ -3101,7 +3092,7 @@
                   "type": "Information disclosure",
                   "status": "Open",
                   "severity": "High",
-                  "description": "A generic information disclosure threat"
+                  "description": "An attacker can use eavesdropping, side-channel attacks, data leaks, or packet sniffing to spy on data in transit."
                 },
                 {
                   "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
@@ -3109,7 +3100,7 @@
                   "type": "Denial of service",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic DoS threat"
+                  "description": "An attacker can overwhelm the communication channel or data flow with redundant data."
                 }
               ],
               "attrs": {
@@ -3158,7 +3149,7 @@
                   "type": "Tampering",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic tampering threat"
+                  "description": "Data in transit can be modified by an attacker."
                 },
                 {
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
@@ -3166,7 +3157,7 @@
                   "type": "Information disclosure",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic information disclosure threat"
+                  "description": "An attacker can use eavesdropping, side-channel attacks, data leaks, or packet sniffing to spy on data in transit."
                 },
                 {
                   "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
@@ -3174,7 +3165,7 @@
                   "type": "Denial of service",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic DoS threat"
+                  "description": "An attacker can overwhelm the communication channel or data flow with redundant data."
                 }
               ],
               "isEncrypted": true,
@@ -3224,7 +3215,7 @@
                   "type": "Tampering",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic tampering threat"
+                  "description": "Data in transit can be modified by an attacker."
                 },
                 {
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
@@ -3232,7 +3223,7 @@
                   "type": "Information disclosure",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic information disclosure threat"
+                  "description": "An attacker can use eavesdropping, side-channel attacks, data leaks, or packet sniffing to spy on data in transit."
                 },
                 {
                   "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
@@ -3240,7 +3231,7 @@
                   "type": "Denial of service",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic DoS threat"
+                  "description": "An attacker can overwhelm the communication channel or data flow with redundant data."
                 }
               ],
               "isEncrypted": true,
@@ -3361,7 +3352,7 @@
                 "height": 100
               },
               "position": {
-                "x": 646,
+                "x": 647,
                 "y": 120
               },
               "angle": 0,
@@ -3386,14 +3377,6 @@
                   "description": "A generic tampering threat"
                 },
                 {
-                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
-                  "title": "Repudiation threat",
-                  "type": "Repudiation",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic repudiation threat"
-                },
-                {
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
                   "title": "Information disclosure threat",
                   "type": "Information disclosure",
@@ -3408,6 +3391,13 @@
                   "status": "Open",
                   "severity": "Medium",
                   "description": "A generic DoS threat"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Low",
+                  "title": "Elevation Threat",
+                  "type": "Elevation of privilege",
+                  "description": "The process might gain a higher privilege than authorized."
                 }
               ],
               "attrs": {
@@ -3459,7 +3449,7 @@
                   "type": "Tampering",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic tampering threat"
+                  "description": "Data in transit can be modified by an attacker."
                 },
                 {
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
@@ -3467,7 +3457,7 @@
                   "type": "Information disclosure",
                   "status": "Open",
                   "severity": "High",
-                  "description": "A generic information disclosure threat"
+                  "description": "An attacker can use eavesdropping, side-channel attacks, data leaks, or packet sniffing to spy on data in transit."
                 },
                 {
                   "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
@@ -3475,7 +3465,7 @@
                   "type": "Denial of service",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic DoS threat"
+                  "description": "An attacker can overwhelm the communication channel or data flow with redundant data."
                 }
               ],
               "attrs": {
