@@ -3603,7 +3603,7 @@
               },
               "position": {
                 "x": 560,
-                "y": 120
+                "y": 119
               },
               "angle": 0,
               "id": "ec98955d-4468-45df-9419-94cd7bba0e8c",
@@ -3639,7 +3639,7 @@
               },
               "position": {
                 "x": 837,
-                "y": 444
+                "y": 443
               },
               "angle": 0,
               "id": "a2b8f3dc-39e1-4d6c-be90-b1a1f5d4a3ae",
@@ -3652,7 +3652,7 @@
                   "type": "Spoofing",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic spoofing threat"
+                  "description": "Falsification of origin."
                 },
                 {
                   "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
@@ -3660,7 +3660,7 @@
                   "type": "Repudiation",
                   "status": "Open",
                   "severity": "Low",
-                  "description": "A generic repudiation threat"
+                  "description": "An attacker might make changes to data that are not traceable."
                 }
               ],
               "attrs": {
@@ -3760,8 +3760,8 @@
                 "height": 100
               },
               "position": {
-                "x": 322,
-                "y": 203
+                "x": 321,
+                "y": 201
               },
               "angle": 0,
               "id": "44d781ee-f1a1-4183-af28-80f3081308a0",
@@ -3827,7 +3827,7 @@
                 "height": 100
               },
               "position": {
-                "x": 375,
+                "x": 374,
                 "y": 329
               },
               "angle": 0,
@@ -4375,7 +4375,16 @@
               "target": {
                 "id": "0bfa55a5-26b1-4b05-ae60-2bcf05e46002"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 693,
+                  "y": 481
+                },
+                {
+                  "x": 673,
+                  "y": 481
+                }
+              ],
               "id": "2f5349bc-47ca-4ecb-89ef-476269815d8f",
               "labels": [
                 {
@@ -4487,13 +4496,6 @@
                   "status": "Open",
                   "severity": "Medium",
                   "description": "An attacker can overwhelm the communication channel or data flow with redundant data."
-                },
-                {
-                  "status": "Open",
-                  "severity": "Medium",
-                  "title": "Repudiation threat",
-                  "type": "Repudiation",
-                  "description": "Modification of in-transit data may not traceable back to the entity responsible."
                 }
               ],
               "attrs": {
@@ -4514,7 +4516,12 @@
               "target": {
                 "id": "ec98955d-4468-45df-9419-94cd7bba0e8c"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 571,
+                  "y": 243
+                }
+              ],
               "id": "82851bda-70f2-4533-9fdc-72703dc53d3b",
               "labels": [
                 {
@@ -4574,7 +4581,12 @@
               "target": {
                 "id": "c4eac6db-63c6-4673-93b2-1c2910a5254a"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 349,
+                  "y": 441
+                }
+              ],
               "id": "9b49efa7-b509-48b0-b4b9-647f3e7d9f52",
               "labels": [
                 {
@@ -4622,14 +4634,6 @@
                   "status": "Open",
                   "severity": "Medium",
                   "description": "A generic tampering threat"
-                },
-                {
-                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
-                  "title": "Generic information disclosure threat",
-                  "type": "Information disclosure",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic information disclosure threat"
                 },
                 {
                   "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
@@ -4871,7 +4875,12 @@
               "target": {
                 "id": "044c1810-da9b-4fce-a9c9-b45d7dace9e6"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 294,
+                  "y": 245
+                }
+              ],
               "id": "8cde9399-fe9c-4411-84d7-b29324b1fc5a",
               "labels": [
                 {
