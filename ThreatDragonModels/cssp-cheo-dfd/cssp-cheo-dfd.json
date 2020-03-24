@@ -3509,6 +3509,7 @@
               "z": 1,
               "hasOpenThreats": false,
               "outOfScope": false,
+              "reasonOutOfScope": "",
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -3542,7 +3543,7 @@
                   "type": "Spoofing",
                   "status": "Open",
                   "severity": "High",
-                  "description": "A generic spoofing threat"
+                  "description": "Falsification of origin."
                 },
                 {
                   "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
@@ -3550,7 +3551,7 @@
                   "type": "Repudiation",
                   "status": "Open",
                   "severity": "High",
-                  "description": "A generic repudiation threat"
+                  "description": "An attacker might make changes to data that are not traceable."
                 }
               ],
               "attrs": {
@@ -4087,7 +4088,7 @@
                   "type": "Tampering",
                   "status": "Open",
                   "severity": "High",
-                  "description": "A generic tampering threat"
+                  "description": "An attacker can modify or corrupt the database files."
                 },
                 {
                   "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
@@ -4095,7 +4096,7 @@
                   "type": "Repudiation",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic repudiation threat"
+                  "description": "Changes made to the database may not be traceable back to the attacker."
                 },
                 {
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
@@ -4103,7 +4104,7 @@
                   "type": "Information disclosure",
                   "status": "Open",
                   "severity": "High",
-                  "description": "A generic information disclosure threat"
+                  "description": "An attacker could make a query call on the database using code injection. An attacker could obtain the database credentials and use them to make unauthorized queries."
                 },
                 {
                   "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
@@ -4111,7 +4112,7 @@
                   "type": "Denial of service",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic DoS threat"
+                  "description": "An attacker could flood the database with redundant queries and prevent legitimate queries to the database."
                 }
               ],
               "attrs": {
@@ -4963,12 +4964,14 @@
               ],
               "z": 34,
               "hasOpenThreats": false,
+              "outOfScope": true,
+              "reasonOutOfScope": "This data flow represents a read from the file system",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasNoOpenThreats isOutOfScope"
                 }
               }
             },
